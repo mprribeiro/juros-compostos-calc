@@ -1,0 +1,52 @@
+.border {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 40px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: 170px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.inputText {
+  margin-left: 30px;
+}
+
+.pos {
+  color: green;
+}
+
+.neg {
+  color: red;
+}
+
+.icon {
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: lightsteelblue;
+}
